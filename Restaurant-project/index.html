@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keylin’s Dinner</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      text-align: center;
+    }
+
+    .justify-text {
+      text-align: center justify;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .menu-section {
+      margin-bottom: 64px;
+    }
+
+    .w3-bar {
+      justify-content: center;
+      display: flex;
+    }
+
+    .w3-bar-item {
+      text-align: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="w3-bar w3-padding">
+    <a href="#welcome" class="w3-bar-item w3-button">Home</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="w3-container">
+    <h1>Welcome to Keylin’s Dinner</h1>
+    <div class="justify-text">
+      <p>
+        At Keylin’s Dinner, we serve up a little bit of everything — from fluffy pancakes and hearty steak to fresh Caesar salads and classic spaghetti. Enjoy our tender salmon fillet, grilled chicken sandwiches, and refreshing fruit bowls, all made fresh, affordable, and with that special homemade taste you can always count on.
+      </p>
+      <p>
+        Whether you’re here for breakfast, lunch, or dinner, our welcoming atmosphere makes you feel right at home any time of day. We’re proud to keep it local, using fresh ingredients sourced nearby, so every meal supports our community.
+      </p>
+      <p>
+        Come hungry, leave happy — Keylin’s Dinner is your go-to spot for good food, good company, and great value.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="w3-container">
+    <h2>About Us</h2>
+    <p>Established in 2005, Keylin’s Dinner offers a warm atmosphere and classic American dishes made fresh daily to satisfy families and friends any time of the day.</p>
+    <img src="assets/interior.jpg" alt="Restaurant Interior" style="width:100%;max-width:600px;">
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="w3-container">
+    <h2>Our Menu</h2>
+
+    <!-- Breakfast Section -->
+    <div class="menu-section">
+      <h3>Breakfast</h3>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/Pancake.jpg" style="width:100%" alt="Pancakes" />
+            <p><strong>Pancakes</strong> - $8.50<br>Fluffy pancakes served with syrup and butter.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/fruitbowl.png" style="width:100%" alt="Fruit Bowl" />
+            <p><strong>Fruit Bowl</strong> - $7.00<br>Fresh seasonal fruits in a chilled bowl.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lunch Section -->
+    <div class="menu-section">
+      <h3>Lunch</h3>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/grilledchickensandwich.png" style="width:100%" alt="Grilled Chicken Sandwich" />
+            <p><strong>Grilled Chicken Sandwich</strong> - $10.75<br>Marinated grilled chicken on toasted bun with lettuce and tomato.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/ceasersalad.png" style="width:100%" alt="Caesar Salad" />
+            <p><strong>Caesar Salad</strong> - $9.50<br>Classic Caesar with romaine, croutons, and parmesan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dinner Section -->
+    <div class="menu-section">
+      <h3>Dinner</h3>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/steakplate.png" style="width:100%" alt="Steak Plate" />
+            <p><strong>Steak Plate</strong> - $16.95<br>Grilled steak with mashed potatoes and vegetables.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/salmonfillet.png" style="width:100%" alt="Salmon Fillet" />
+            <p><strong>Salmon Fillet</strong> - $18.95<br>Pan-seared salmon with lemon butter sauce and rice.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card">
+            <img src="assets/spaghetti.png" style="width:100%" alt="Spaghetti" />
+            <p><strong>Spaghetti</strong> - $12.00<br>Classic spaghetti with tomato basil sauce.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="w3-container">
+    <h2>Contact Us</h2>
+    <p>📍 123 Main St, Your City, USA</p>
+    <p>📞 (555) 123-4567</p>
+    <p>🕐 Open Daily: 7:00 AM – 10:00 PM</p>
+  </section>
+</body>
+</html>
