@@ -1,0 +1,80 @@
+:root {
+  --cream: #eaebd0;
+  --light-red: #da6c6c;
+  --medium-red: #cd5656;
+  --dark-red: #af3e3e;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--cream);
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.w3-bar {
+  background-color: var(--dark-red) !important;
+}
+
+.w3-bar a {
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.w3-bar a:hover {
+  background-color: var(--medium-red);
+  color: var(--cream);
+}
+
+h1, h2, h3 {
+  color: var(--dark-red);
+}
+
+section {
+  padding: 64px 16px;
+}
+
+.w3-card {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.w3-card img {
+  border-bottom: 1px solid #ccc;
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.w3-card p {
+  padding: 12px;
+}
+
+.w3-container.w3-light-grey {
+  background-color: var(--light-red) !important;
+  color: white;
+}
+
+#menu {
+  background-color: var(--medium-red);
+  color: rgb(5, 5, 5);
+}
+
+#menu h3 {
+  color: var(--cream);
+}
+
+#welcome {
+  background-color: var(--cream);
+}
+.justify-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
