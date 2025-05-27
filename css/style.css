@@ -78,3 +78,34 @@ section {
   margin: 0 auto;
   text-align: justify;
 }
+
+    body {
+      text-align: center;
+    }
+
+    .justify-text {
+      text-align: center justify;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .menu-section {
+      margin-bottom: 64px;
+    }
+
+    .w3-bar {
+      justify-content: center;
+      display: flex;
+    }
+
+    .w3-bar-item {
+      text-align: center;
+    }
+    
+
